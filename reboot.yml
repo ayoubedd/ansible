@@ -1,6 +1,7 @@
 ---
 
 - name: Reboot infrastructure
+  hosts: all
   become: true
   tasks:
     - name: reboot machine
