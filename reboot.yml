@@ -3,4 +3,5 @@
 - name: Reboot infrastructure
   become: true
   tasks:
-    reboot:
+    - name: reboot machine
+      reboot:
