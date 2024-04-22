@@ -1,0 +1,8 @@
+---
+
+ubuntu:
+  hosts:
+    ubuntu@ubuntu-1.casa.ayoubedd.me:
+    ubuntu@ubuntu-2.casa.ayoubedd.me:
+    ubuntu@ubuntu-3.casa.ayoubedd.me:
+    ubuntu@ubuntu-4.casa.ayoubedd.me:

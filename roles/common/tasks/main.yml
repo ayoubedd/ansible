@@ -1,0 +1,9 @@
+- name: Sync repository
+  package:
+    update_cache: yes
+  when: ansible_distribution == "Ubuntu"
+
+- name: System upgrade
+  package:
+    upgrade: dist
+  when: ansible_distribution == "Ubuntu"
