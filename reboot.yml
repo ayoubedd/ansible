@@ -1,0 +1,6 @@
+---
+
+- name: Reboot infrastructure
+  become: true
+  tasks:
+    reboot:
